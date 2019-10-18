@@ -5,7 +5,7 @@ require 'directors_database'
 directors_database
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
-  puts nds[0][:movies][0]
+  puts nds[0][:movies][0][:title]
   pp nds
 end
 
