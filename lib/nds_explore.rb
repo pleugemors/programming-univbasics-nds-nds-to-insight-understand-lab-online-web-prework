@@ -14,5 +14,6 @@ def print_first_directors_movie_titles
   number=0 
   while nds[0][:movies][number] do
     puts nds[0][:movies][number][:title]
+    number += 1
   end
 end
