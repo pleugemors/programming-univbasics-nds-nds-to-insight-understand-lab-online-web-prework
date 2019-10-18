@@ -10,5 +10,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  pp nds[0][:movies][0]
+  int number=0 
+  while nds[0][:movies][number] do
+    puts nds[0][:movies][number][:title]
 end
